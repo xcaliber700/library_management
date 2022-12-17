@@ -1,0 +1,2 @@
+CREATE TABLE Author ( ID int NOT NULL, Name varchar(255), PRIMARY KEY (ID) );
+CREATE TABLE Book ( id int NOT NULL, ISBN int UNIQUE, Title varchar(255), Category varchar(255), Author int, PRIMARY KEY (id), FOREIGN KEY (Author) REFERENCES author(id) );
