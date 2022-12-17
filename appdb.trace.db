@@ -1,0 +1,3 @@
+2022-12-11 14:13:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+select * from book [42104-214]
